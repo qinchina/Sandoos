@@ -1,0 +1,94 @@
+@font-face { font-family: DelaGothicOne; src: url('../fonts/DelaGothicOne-Regular.ttf'); } 
+@font-face { font-family: GT Walsheim; src: url('../fonts/GT-Walsheim-Condensed-Regular-Trial.otf'); } 
+
+body {background-color: #EEE5E9}
+
+h1 {
+  font-family: DelaGothicOne, Caslon, Times New Roman, serif;
+  color: #E4572E;
+  font-size: 108;
+  line-height: 95%;
+  z-index: 0;
+  width: 200px;
+}
+
+h2 {
+  font-family: GT Walsheim, Caslon, Times New Roman, serif;
+  color: #000000;
+  font-size: 24;
+  line-height: 100%;
+}
+
+h3 {
+  font-family: GT Walsheim, Caslon, Times New Roman, serif;
+  color: #FF0000;
+  font-size: 48 pt;
+}
+
+h4 {
+
+  color: #000000;
+  font-size: 12 pt;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.navigation {
+
+  align-items: left;
+  font-family: GT Walsheim, Arial, sans-serif;
+}
+
+
+.header {
+  padding: 5%;
+  width:  auto;
+  height: 650px;
+}
+
+
+.headerfloatleft {
+  width:  20%;
+  float: left;
+  font-family: GT Walsheim, Caslon, Times New Roman, serif;
+  color: #000000;
+  font-size: 24;
+  line-height: 200%;
+    position: absolute;
+  top:  200px;
+}
+
+.headerfloatright{
+  width: 75%;
+  float: right;
+  height: 500;
+  display: inline;
+}
+
+.bigsando {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top:  0px;
+  left: 650px;
+  z-index: -1;
+}
+
+ .allsandosgallery {
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  ustify-content: space-around;
+
+ }
+
+.gallery{
+    width: 200px;
+  height: 300px;
+  object-fit: cover;
+
+}
